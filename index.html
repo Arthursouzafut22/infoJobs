@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt _ BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emprego Deed</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#">
+                <img src="imgs/logoEM.png" alt="logo" id="logo">
+            </a>
+        </nav>
+        <form>
+            <input type="text" placeholder="Achar Vagas" id="search">
+            <button id="btn-achar">Achar</button>
+        </form>
+    </header>
+
+    <div class="conteiner-fill">
+        <button id="btn-filtrar">Filtrar por
+            <img src="imgs/seta.png" alt="seta" class="seta">
+
+        </button>
+        <div data-modal>
+            <ul>
+                <li><button class="home btnsModel" data-home>Home Oficce(5)</button></li>
+                <li><button class="hibrido btnsModel" data-hibrido>Modelo Hibrído(4)</button></li>
+            </ul>
+        </div>
+        <span class="totalResults"></span>
+    </div>
+
+    <main class="main">
+    </main>
+     
+    <section>
+        <button class="btn-plus">Ver mais</button>
+    </section>
+
+    <!-- <footer>
+        <p>© 2024 Company</p>
+        <p>Centro de privacidade e preferências de anúncios</p>
+        <p>Termos</p>
+    </footer> -->
+    
+    <script src="script/index.js" type="module"></script>
+</body>
+</html>

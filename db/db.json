@@ -1,0 +1,103 @@
+{
+    "vagas": [
+        {
+            "id": 1,
+            "nome": "Desenvolvedor front-end júnior",
+            "empresa": "Netvagas",
+            "modelo": "Home Office",
+            "descricao": [
+                "Com conhecimento em Javascript, CSS e HTML.",
+                "Com experiência profissional em desenvolvimento Front-end."
+            ],
+            "anunciada": "Anunciada há 10 dias"
+        },
+        {
+            "id": 2,
+            "nome": "Desenvolvedor Jr .NET React",
+            "empresa": "Duett Software",
+            "modelo": "Hibrído",
+            "descricao": [
+                "Bom conhecimento em lógica, algoritmos e linguagens de programação.",
+                "Conhecimento estruturais de Entity Framework."
+            ],
+            "anunciada": "Anunciada há 4 dias"
+        },
+        {
+            "id": 3,
+            "nome": "Desenvolvedora de Software",
+            "empresa": "TOTVS",
+            "modelo": "Hibrído",
+            "descricao": [
+                "Desenvolver aplicações robustas e eficientes.",
+                "Experiência substancial em desenvolvimento back-end."
+            ],
+            "anunciada": "Anunciada há 2 dias"
+        },
+        {
+            "id": 4,
+            "nome": "Desenvolvedor(a) Web Pleno",
+            "empresa": "Cayena",
+            "modelo": "Home Office",
+            "descricao": [
+                "Experiência com tecnologias de front-end como HTML, CSS, JavaScript.",
+                "Experiência em versionamento de código com Git."
+            ],
+            "anunciada": "Anunciada há 3 dias"
+        },
+        {
+            "id": 5,
+            "nome": "Desenvolvedor(a) Fullstack Jr",
+            "empresa": "ITRIAD",
+            "modelo": "Home Office",
+            "descricao": [
+                "Participação em uma variedade de projetos.",
+                "Atuação prévia como Desenvolvedor(a) Full Stack, com conhecimentos em desenvolvimento web "
+            ],
+            "anunciada": "Anunciada há 20 dias"
+        },
+        {
+            "id": 6,
+            "nome": "Desenvolvedor Web Vue Js",
+            "empresa": "Twygo",
+            "modelo": "Hibrído",
+            "descricao": [
+                "Desenvolver e implementar soluções web robustas.",
+                "Manter e melhorar a performance e confiabilidade das aplicações."
+            ],
+            "anunciada": "Anunciada há 30 dias"
+        },
+        {
+            "id": 7,
+            "nome": "Software Developer",
+            "empresa": "CiiRUS Vacation Rental Software",
+            "modelo": "Hibrído",
+            "descricao": [
+                "Do you have advance knowledge of C#?",
+                "Are you fluent in English-both spoken and written end?"
+            ],
+            "anunciada": "Anunciada há 6 dias"
+        },
+        {
+            "id": 8,
+            "nome": "Desenvolvedor Front-End Angular",
+            "empresa": "First Decision",
+            "modelo": "Home Office",
+            "descricao": [
+                "Experiência com Angular.",
+                "Desejável familiaridade com Docker."
+            ],
+            "anunciada": "Anunciada há 1 dia"
+        },
+        {
+            "id": 9,
+            "nome": "Programador Junior",
+            "empresa": "Itaú",
+            "modelo": "Home Office",
+            "descricao": [
+                "Excelentes habilidades de comunicação.",
+                "capacidade para colaborar com equipes."
+            ],
+            "anunciada": "Anunciada há 30 dias"
+        }
+    ]
+}

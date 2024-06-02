@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li,
+p {
+  list-style: none;
+  padding: 0;
+}
+
+.erro {
+  font-size: 17px;
+  color: rgba(117, 117, 118);
+  position: absolute;
+  display: block;
+  right: 46%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(18, 20, 22);
+  /* background-color: black; */
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 3px 18px 0px 0px;
+  overflow: hidden;
+}
+
+#logo {
+  display: block;
+  max-width: 120px;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8px;
+  width: 400px;
+}
+
+form input {
+  display: block;
+  background-color: rgb(38, 38, 38);
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+#search:focus {
+  outline-color: #e8e8e8;
+  transition: 0.3s;
+}
+
+#btn-achar {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  border: none;
+  color: rgba(18, 20, 22);
+  background-color: rgb(236, 127, 245);
+  padding: 7px 9px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.conteiner-fill {
+  padding: 10px 0px 0px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteiner-fill span {
+  padding-right: 18px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3px 18px 0px 18px;
+  margin: 40px auto auto auto;
+  gap: 25px;
+}
+
+#btn-filtrar {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  color: rgba(117, 117, 118);
+  background-color: rgb(38, 38, 38);
+  max-width: 110px;
+  width: 100%;
+  padding: 8px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.seta {
+  display: block;
+  max-width: 10px;
+}
+
+.seta.ativo {
+  animation: rotate 0.5s forwards;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+[data-modal] {
+  display: none;
+  position: absolute;
+  top: 160px;
+  max-width: 180px;
+  padding: 15px 8px;
+  background-color: rgb(38, 38, 38);
+  margin-top: 13px;
+  border-radius: 8px;
+  z-index: 22;
+  animation: date 0.5s forwards;
+}
+
+@keyframes date {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+[data-modal].active {
+  display: block;
+}
+
+[data-modal] li button {
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  color: rgba(117, 117, 118);
+  background-color: rgba(18, 20, 22);
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+[data-modal] li:first-child {
+  margin-bottom: 20px;
+}
+
+.main-info {
+  margin: 15px auto auto auto;
+}
+
+.cards-info {
+  max-width: 400px;
+  border: 1px solid #757576;
+  padding: 12px;
+  border-radius: 8px;
+  transition: all 0.5s;
+  cursor: pointer;
+  flex: 1 1 390px;
+}
+
+.cards-info:hover {
+  transform: scale(0.9);
+}
+
+.cards-info h1 {
+  font-size: 22px;
+  color: rgba(117, 117, 118);
+}
+
+.cards-info p,
+span {
+  font-size: 14px;
+  color: rgba(117, 117, 118);
+}
+
+.cards-info :nth-child(2) {
+  margin: 10px 0px 3px 0px;
+}
+
+.cards-info :nth-child(4) {
+  display: inline-block;
+  background-color: rgb(38, 38, 38);
+  padding: 3px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.cards-info ul {
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.cards-info ul :last-child {
+  margin: 0px;
+}
+
+.cards-info ul li {
+  font-size: 13px;
+  list-style: outside;
+  color: rgba(117, 117, 118);
+}
+
+.cc-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#btn-cadastrar {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  color: rgba(18, 20, 22);
+  background-color: #f199f7;
+  padding: 7px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+.btn-plus {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: rgba(18, 20, 22);
+  background-color: #f199f7;
+  padding: 7px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  #logo {
+    max-width: 90px;
+  }
+  #btn-achar {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .cards-info {
+    flex: 1 1 350px;
+  }
+}
