@@ -1,10 +1,9 @@
 
 import valorName from './valorName.js'
 import listJobs from './listJobs.js';
+import  { jobsInfos, search }   from './selectors.js'
 
 
-
-const search = document.getElementById('search');
 
 
  export default function filterJobs()  {
@@ -25,5 +24,3 @@ const search = document.getElementById('search');
 }
 
 search.addEventListener('keyup', filterJobs);
-
-// const search = document.getElementById('search');

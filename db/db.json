@@ -15,7 +15,7 @@
             "id": 2,
             "nome": "Desenvolvedor Jr .NET React",
             "empresa": "Duett Software",
-            "modelo": "Hibrído",
+            "modelo": "Home Office",
             "descricao": [
                 "Bom conhecimento em lógica, algoritmos e linguagens de programação.",
                 "Conhecimento estruturais de Entity Framework."
@@ -26,7 +26,7 @@
             "id": 3,
             "nome": "Desenvolvedora de Software",
             "empresa": "TOTVS",
-            "modelo": "Hibrído",
+            "modelo": "Home Office",
             "descricao": [
                 "Desenvolver aplicações robustas e eficientes.",
                 "Experiência substancial em desenvolvimento back-end."
@@ -81,7 +81,7 @@
             "id": 8,
             "nome": "Desenvolvedor Front-End Angular",
             "empresa": "First Decision",
-            "modelo": "Home Office",
+            "modelo": "Hibrído",
             "descricao": [
                 "Experiência com Angular.",
                 "Desejável familiaridade com Docker."
@@ -92,7 +92,7 @@
             "id": 9,
             "nome": "Programador Junior",
             "empresa": "Itaú",
-            "modelo": "Home Office",
+            "modelo": "Hibrído",
             "descricao": [
                 "Excelentes habilidades de comunicação.",
                 "capacidade para colaborar com equipes."

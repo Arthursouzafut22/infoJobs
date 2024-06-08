@@ -1,14 +1,13 @@
 
 import  cardsJobs  from "./cardsJobs.js";
 
-let jobsInfos = []
 
-export default function listJobs  (jobs)  {
+export default function listJobs (jobs)  {
+    const totalResults = document.querySelector('.totalResults');
     const main = document.querySelector('.main');
 
+    totalResults.innerHTML = `Total Vagas(${jobs.length})`
     main.innerHTML = "";
-    
-    jobsInfos = jobs;
 
     jobs.map((info) => {
         return main.innerHTML += cardsJobs(info);

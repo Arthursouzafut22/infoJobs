@@ -1,9 +1,9 @@
 
-export let jobsInfos = [];
-export const search = document.getElementById('search');
-export const btnsModel = document.querySelectorAll('.btnsModel');
+ let jobsInfos = [];
+ const search = document.getElementById('search');
+ const btnsModel = document.querySelectorAll('.btnsModel');
 
 
-
+export { jobsInfos, search, btnsModel };
 
 
