@@ -1,7 +1,7 @@
 
 import axios from "https://cdn.skypack.dev/axios";
 import  listJobs  from "./listJobs.js";
-import  { jobsInfos }  from "./selectors.js";
+import  { jobsInfos, caixaJobs }  from "./selectors.js";
 
 
 window.addEventListener('load', () => {
@@ -19,7 +19,10 @@ export default async function axioJobs () {
 
     jobsInfos.length = 0;
     jobsInfos.push(...response.vagas);
+    caixaJobs.push(...response.vagas);
+
 
     listJobs(jobsInfos);
+    
 
 }

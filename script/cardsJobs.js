@@ -4,7 +4,7 @@ export default function cardsJobs (job) {
 
     return `
 
-          <div class="cards-info" data-name="${job.nome}">
+          <div class="cards-info" data-id="${job.id}">
                 <h1>${job.nome}</h1>
                 <p>${job.empresa}</p>
                 <p>${job.modelo}</p>

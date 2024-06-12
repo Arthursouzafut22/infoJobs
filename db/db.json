@@ -98,6 +98,83 @@
                 "capacidade para colaborar com equipes."
             ],
             "anunciada": "Anunciada há 30 dias"
+        },
+        {
+            "id": 10,
+            "nome": "Desenvolvedor Backend ",
+            "empresa": "Keep Simple",
+            "modelo": "Hibrído",
+            "descricao": [
+                "esponsável por desenvolver automações.",
+                "capacidade para colaborar com equipes."
+            ],
+            "anunciada": "Anunciada há 20 dias"
+        },
+        {
+            "id": 11,
+            "nome": "esenvolvedor Node JS ",
+            "empresa": "Bradesco",
+            "modelo": "Home Office",
+            "descricao": [
+                "Atua de forma cross entre as squads.",
+                "Desenvolvimento de integrações ."
+            ],
+            "anunciada": "Anunciada há 9 dias"
+        },
+        {
+            "id": 12,
+            "nome": "Desenvolvedor Python",
+            "empresa": "Netshoes",
+            "modelo": "Hibrído",
+            "descricao": [
+                "xploração de tecnologias disponíveis.",
+                "capacidade para colaborar com equipes."
+            ],
+            "anunciada": "Anunciada há 30 dias"
+        },
+        {
+            "id": 13,
+            "nome": "Analista sistema",
+            "empresa": "Centauro",
+            "modelo": "Hibrído",
+            "descricao": [
+                "Excelentes habilidades de comunicação.",
+                "capacidade para colaborar com equipes."
+            ],
+            "anunciada": "Anunciada há 37 dias"
+        },
+        {
+            "id": 14,
+            "nome": " Desenvolvedora Fullstack",
+            "empresa": "Bk king",
+            "modelo": "Home Office",
+            "descricao": [
+                "Desenvolver soluções técnicas.",
+                "capacidade para colaborar com equipes."
+            ],
+            "anunciada": "Anunciada há 40 dias"
+        },
+        {
+            "id": 15,
+            "nome": "Desenvolvedor Junior",
+            "empresa": "Banco Brasil",
+            "modelo": "Hibrído",
+            "descricao": [
+                "Excelentes habilidades de comunicação.",
+                "capacidade para colaborar com equipes."
+            ],
+            "anunciada": "Anunciada há 30 dias"
+        },
+        {
+            "id": 16,
+            "nome": "UX Design (Remoto)",
+            "empresa": "Talentos.com",
+            "modelo": "Home Office",
+            "descricao": [
+                "Auxiliar nas melhorias.",
+                "User Experience (UX) ."
+            ],
+            "anunciada": "Anunciada há 10 dias"
         }
     ]
 }

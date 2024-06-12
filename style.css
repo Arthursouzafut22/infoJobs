@@ -93,7 +93,7 @@ form input {
   padding-right: 18px;
 }
 
-main {
+.grid ,main {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
