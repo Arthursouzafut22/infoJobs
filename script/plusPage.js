@@ -1,5 +1,5 @@
 
-import { btnPlus, jobsInfos, caixaJobs } from "./selectors.js";
+import { btnPlus,caixaJobs } from "./selectors.js";
 import cardsJobs from "./cardsJobs.js";
 
 
@@ -14,7 +14,7 @@ export default function plusPage() {
         if(item.id >= 10) {
             section.innerHTML += cardsJobs(item);
         }
-    
+        
       });
 
     return mapa;

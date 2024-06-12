@@ -3,7 +3,9 @@ import  cardsJobs  from "./cardsJobs.js";
 
 
 
+
 export default function listJobs (jobs)  {
+    
     const totalResults = document.querySelector('.totalResults');
     const main = document.querySelector('.main');
 

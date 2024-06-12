@@ -1,4 +1,5 @@
 
+
  let jobsInfos = [];
  let caixaJobs = [];
  const search = document.getElementById('search');

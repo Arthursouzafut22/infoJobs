@@ -8,6 +8,8 @@ window.addEventListener('load', () => {
     axioJobs();
 });
 
+
+
 export default async function axioJobs () {
     const res = await axios.get('db/db.json');
 

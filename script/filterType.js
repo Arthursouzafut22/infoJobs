@@ -1,6 +1,7 @@
 
 import listJobs from "./listJobs.js";
-import { jobsInfos } from "./selectors.js";
+import { caixaJobs } from "./selectors.js";
+
 
 
 document.querySelector('.home').addEventListener('click',() => {
@@ -14,7 +15,7 @@ document.querySelector('.hibrido').addEventListener('click',() => {
 
 
 export default function filterType(tipo) {
-    const novoArray = Array.from(jobsInfos);
+    const novoArray = Array.from(caixaJobs);
     const filterTypes = novoArray.filter((item) => {
 
         return item.modelo === tipo;

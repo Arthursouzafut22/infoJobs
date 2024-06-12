@@ -1,5 +1,6 @@
 
  export default function actionFillter ()  {  
+    
     const btnFiltrar = document.getElementById('btn-filtrar');
     const imgSeta = document.querySelector('.seta');
     
