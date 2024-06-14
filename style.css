@@ -93,8 +93,9 @@ form input {
   padding-right: 18px;
 }
 
-.grid ,main {
-  display: flex;
+.grid,
+main {
+  display: none;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -272,6 +273,53 @@ section {
   padding: 7px 5px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  display: block;
+  top: 35%;
+  right: 36%;
+  left: 36%;
+  max-width: 400px;
+  width: 100%;
+}
+
+.erro {
+  
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(38, 38, 38);
+  width: 100%;
+  padding: 30px 12px 40px 12px;
+}
+
+#formulario h1 {
+  color: #757576;
+  margin-bottom: 5px;
+}
+
+#formulario input {
+  background-color: rgba(18, 20, 22);
+  margin-bottom: 8px;
+}
+
+.btn-form {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: rgba(18, 20, 22);
+  background-color: #f199f7;
+  padding: 7px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
 }
 
 @media (max-width: 767px) {
