@@ -1,7 +1,7 @@
 
 
 export default function cardsJobs (job) {
-
+   
     return `
 
           <div class="cards-info">
@@ -15,7 +15,12 @@ export default function cardsJobs (job) {
                 </ul>
                 <div class="cc-info">
                     <span>${job.anunciada}</span>
-                    <button id="btn-cadastrar" data-id="${job.id}" >Candidatar</button>
+                    <button id="btn-cadastrar" data-id="${job.id} class="btn-cadastrar-${job.id}" >Candidatar</button>
                 </div>
             </div>`
+    
 }
+
+   
+ 
+

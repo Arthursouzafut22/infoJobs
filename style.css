@@ -95,7 +95,7 @@ form input {
 
 .grid,
 main {
-  display: none;
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -198,7 +198,7 @@ main {
 }
 
 .cards-info:hover {
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
 }
 
 .cards-info h1 {
@@ -223,6 +223,7 @@ span {
   border-radius: 5px;
   margin: 10px 0px;
 }
+
 
 .cards-info ul {
   margin-top: 8px;
@@ -277,7 +278,7 @@ section {
 
 .modal {
   position: absolute;
-  display: block;
+  display: none;
   top: 35%;
   right: 36%;
   left: 36%;
@@ -285,13 +286,9 @@ section {
   width: 100%;
 }
 
-.erro {
-  
-}
-
 #formulario {
   display: flex;
-  flex-direction: column !important;
+  flex-direction: column;
   align-items: center;
   border-radius: 10px;
   background-color: rgb(38, 38, 38);
@@ -306,7 +303,13 @@ section {
 
 #formulario input {
   background-color: rgba(18, 20, 22);
-  margin-bottom: 8px;
+  color: #757576;
+}
+
+.erro1 .check {
+  font-size: 15px;
+  margin-bottom: 4px;
+  margin-top: 0;
 }
 
 .btn-form {

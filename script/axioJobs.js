@@ -14,7 +14,7 @@ export default async function axioJobs () {
     const res = await axios.get('db/db.json');
 
     if(!res.status === 200) {
-        throw new Error('Erro na Chamada');
+        throw new Error('Erro na Chamada!');
     }
     
     const response = await res.data;

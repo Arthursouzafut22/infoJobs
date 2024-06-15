@@ -9,8 +9,9 @@
  const form = document.getElementById('formulario');
  const name = document.getElementById('nome');
  const senha = document.getElementById('senha');
- const erro = document.querySelectorAll('.erro');
+ 
 
+ 
 
 
 
@@ -25,7 +26,6 @@ export { jobsInfos,
      form,
      name, 
      senha,
-     erro  
 };
 
 

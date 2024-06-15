@@ -1,12 +1,16 @@
 
-import { erro } from "./selectors.js";
 
 export default function erroValidity(input) {
 
-    erro.forEach((item) => {
-        item.innerHTML = 'Preencha os dados corretamente';
-        item.style.color = 'red'
-    });
+    const elementInput = input.nextElementSibling;
+    const $egundInput = elementInput.nextElementSibling;
+    
+    elementInput.innerHTML = "Preencha os dados corretamente!";
+    elementInput.style.color = "red";
+
+    if(elementInput) {
+        $egundInput.innerHTML = "";
+    }
 
     return input.style.border = '2px solid red';
 

@@ -1,12 +1,17 @@
 
-import { erro } from "./selectors.js";
 
 export default function checkValidity(input) {
 
-    erro.forEach((item) => {
-        item.innerHTML = 'Obrigado dados corretos';
-        item.style.color = 'green'
-    });
+
+    const firstInput = input.nextElementSibling;
+    const $egundInput = firstInput.nextElementSibling;
+
+    $egundInput.innerHTML = "Obrigado dados corretos!";
+    $egundInput.style.color = "green";
+
+    if($egundInput) {
+        firstInput.innerHTML = "";
+    }
 
     return input.style.border = '2px solid green';
 

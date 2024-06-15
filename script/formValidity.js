@@ -6,7 +6,7 @@ import checkValidity from "./checkValidity.js";
 
 
 export default function formValidity(event) {
-    event.preventDefault()
+    event.preventDefault();
 
     if(name.value === '') erroValidity(name);
     else checkValidity(name);
@@ -31,4 +31,4 @@ export default function formValidity(event) {
 
 
 
-form.addEventListener('submit', formValidity)
+form.addEventListener('submit', formValidity);

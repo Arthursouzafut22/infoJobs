@@ -6,6 +6,7 @@ import filterJobs from "./filterJobs.js";
 import filterType from "./filterType.js";
 import plusPage from "./plusPage.js";
 import formValidity from "./formValidity.js";
+import modalCadidatar from "./cardsJobs.js"
 
 
 
@@ -16,8 +17,7 @@ filterJobs();
 filterType();
 plusPage();
 formValidity();
-
-
+modalCadidatar();
 
 
 
