@@ -1,7 +1,5 @@
 
-
 export default function checkValidity(input) {
-
 
     const firstInput = input.nextElementSibling;
     const $egundInput = firstInput.nextElementSibling;

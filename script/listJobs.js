@@ -1,8 +1,4 @@
-
 import  cardsJobs  from "./cardsJobs.js";
-
-
-
 
 export default function listJobs (jobs)  {
     

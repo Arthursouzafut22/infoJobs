@@ -1,5 +1,4 @@
 
-
 export default function erroValidity(input) {
 
     const elementInput = input.nextElementSibling;
